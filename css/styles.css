@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(35, 10, 61);
+    border: solid rgb(58, 15, 114) 1px;
+    font-size:150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    font-size: 300%;
+    text-align: center;
+}
+#mainPage{
+    background-color: rgb(195, 189, 212);
+    border: solid rgb(155, 115, 192) 1px;
+    margin:auto;
+    text-align: justify;
+    padding: 30px;
+}
+table,tr,th,td{
+    border:solid rgb(51, 47, 4) 1.95px;
+    text-align: center;
+    border-collapse: collapse;
+}
+img{
+    min-width: 50%;
+    max-width: 100%;
+    width:500px;
+    border-radius: 10px;
+    display:block;
+    margin:auto;
+    border:solid rgb(155, 115, 192) 1px;
+}
+.selectorClass{
+    font-weight: bold;
+}
+.listWithoutBullets{
+    list-style-type: none;
+}
+a:link{
+    color:brown;
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(68, 10, 10);
+    text-decoration: none;
+}
+li{
+    font-size: 100%;
+    font-weight:600;
+}
+.importantClass p{
+    background-color: rgba(147, 62, 62, 0.523);
+    border:solid rgb(139, 31, 31) 3px;
+    border-radius: 10px;
+    font-size:120%;
+    font-weight: bold;
+    text-align: center;
+}
+.navBar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    margin:auto;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+  }
+  
+.nav-item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 90%;
+
+}
+.nav-item:hover {
+    background-color: #111;
+} 
+.nav-item:focus {
+    outline: none;
+} 
+.nav-item:active {
+    background-color: #555;
+}
+.nav-item:link{
+    color:rgb(255, 255, 255);
+}
+.nav-item:visited{
+    color:rgb(255, 255, 255);
+}
+#subheader{
+    font-size:150%;
+}
+.hiddenInformation{
+    visibility: hidden;
+    font-weight: bold;
+    font-size: 0;
+    padding-left: 15%;
+    text-align: left;
+}
+.rules{
+    text-align: center;
+}
+.clickable{
+    cursor:pointer;
+}
+#tableTitle{
+    text-align: center;
+    font-size: 150%;
+    margin:auto;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.additionalInfo{
+    color:#383535;
+    text-align: center;
+    font-size:50%;
+}
